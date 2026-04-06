@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE GLAM AURA</title>
+
+  <link rel="stylesheet" href="shop.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="brand">THE GLAM AURA</div>
+
+    <div class="top-actions">
+
+      <!-- INSTAGRAM -->
+      <a class="icon-btn" href="https://www.instagram.com/theglam._.aura/" target="_blank">
+        <i class="fa-brands fa-instagram" style="color: rgb(181, 43, 123);"></i>
+      </a>
+
+      <!-- CART -->
+      <a class="icon-btn cart-btn" href="cart-page.html">
+        <i class="fa-solid fa-cart-arrow-down" style="color: rgb(181, 43, 123);"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+
+      <!-- CAT IMAGE -->
+      <div class="hero-badge">
+        <img src="assets/cat-badge.jpg" alt="cat">
+      </div>
+
+      <h1>Cute Handmade Catalogue</h1>
+      <p>Tap products to view & add to cart 💖</p>
+
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass" style="color: rgb(181, 43, 123);"></i>
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+
+    <!-- TAGS -->
+    <div class="tags">
+      <button class="tag-btn active" data-filter="all">All</button>
+      <button class="tag-btn" data-filter="keychains">Keychains</button>
+      <button class="tag-btn" data-filter="flowers">Flowers</button>
+      <button class="tag-btn" data-filter="clips">Clips</button>
+      <button class="tag-btn" data-filter="bracelet">Bracelet</button>
+      <button class="tag-btn" data-filter="necklace">Necklace</button>
+      <button class="tag-btn" data-filter="earings">Earings</button>
+      <button class="tag-btn" data-filter="brooches">Brooches</button>
+      <button class="tag-btn" data-filter="clay charms">Clay Charms</button>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="results-row">
+      <h3>Products</h3>
+      <p id="resultCount">Showing 0 items</p>
+    </div>
+
+    <div class="products" id="productsGrid"></div>
+
+  </main>
+</div>
+
+<!-- MODAL -->
+<div class="modal-backdrop hidden" id="productModal">
+  <div class="modal-box">
+
+    <button class="close-btn" id="closeModal">✕</button>
+
+    <div class="modal-image-wrap">
+      <img id="modalImage" class="product-image" src="assets/placeholder.jpg">
+    </div>
+
+    <h3 id="modalName"></h3>
+    <p id="modalCategory"></p>
+    <p id="modalPrice"></p>
+    <p id="modalStock"></p>
+
+    <div class="qty-box">
+      <button id="minusQty">−</button>
+      <span id="selectedQty">1</span>
+      <button id="plusQty">+</button>
+    </div>
+
+    <button class="primary-btn" id="addToCartBtn">Add to Cart</button>
+
+  </div>
+</div>
+
+<div class="modal-backdrop hidden" id="productModal">
+  <div class="modal-box">
+    <button class="close-btn" id="closeModal">✕</button>
+
+    <div class="modal-image-wrap">
+      <img id="modalImage" class="product-image" src="assets/placeholder.jpg" alt="Product image">
+    </div>
+
+    <h3 id="modalName">Product Name</h3>
+    <p class="modal-category" id="modalCategory">Category</p>
+    <p class="modal-price" id="modalPrice">₹0</p>
+    <p class="modal-stock" id="modalStock">Available: 0</p>
+    <p class="modal-description" id="modalDescription">Product details</p>
+
+    <div class="qty-box">
+      <button id="minusQty">−</button>
+      <span id="selectedQty">1</span>
+      <button id="plusQty">+</button>
+    </div>
+
+    <button class="primary-btn" id="addToCartBtn">Add to Cart</button>
+  </div>
+</div>
+
+<script src="shop.js"></script>
+
+</body>
+</html>
