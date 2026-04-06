@@ -124,7 +124,7 @@ function removeItem(productId) {
 }
 
 function buildCheckoutText(cartItems) {
-  let text = "nekooocrochet order list\n\n";
+  let text = "ORDER LIST\n\n";
   let total = 0;
 
   cartItems.forEach((item) => {
