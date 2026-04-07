@@ -190,8 +190,9 @@ function renderCart() {
               <button class="small-btn qty-plus" data-id="${item.id}">+</button>
             </div>
             <div class="total-price">
-              ₹${item.price * item.quantity}
-            </div>
+  <strike>₹${(item.price + 100) * item.quantity}</strike>
+  <span class="new-price">₹${item.price * item.quantity}</span>
+</div>
           </div>
           <button class="remove-btn" data-id="${item.id}">Remove</button>
         </div>
@@ -203,7 +204,10 @@ function renderCart() {
       ${cartItems.map((item) => `
         <div class="summary-line">
           <span>${item.name} x ${item.quantity}</span>
-          <span>₹${item.price * item.quantity}</span>
+          <span class="summary-price">
+  <strike>₹${(item.price + 100) * item.quantity}</strike>
+  <span class="new-price">₹${item.price * item.quantity}</span>
+</span>
         </div>
       `).join("")}
       <div class="summary-line">
