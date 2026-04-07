@@ -418,32 +418,13 @@ body {
   font-weight: 900;
 }
 
+/* keep these separate */
 .modal-price,
+.total-price,
 .summary-total {
   font-size: 0.92rem;
   font-weight: 900;
   color: #a03d56;
-}
-
-.total-price,
-.summary-price {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.total-price strike,
-.summary-price strike {
-  color: #8f6a72;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.total-price .new-price,
-.summary-price .new-price {
-  color: #a03d56;
-  font-size: 0.95rem;
-  font-weight: 900;
 }
 
 .stock,
