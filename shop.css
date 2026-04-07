@@ -40,11 +40,11 @@ body {
   overflow: hidden;
 }
 
-/* HEADER */
 .topbar {
   background: #fff8fa;
   padding: 16px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -77,11 +77,7 @@ body {
   border-radius: 50%;
 }
 
-/* CONTENT */
-.content {
-  padding: 16px;
-}
-
+/* SEARCH */
 .search-box {
   display: flex;
   align-items: center;
@@ -103,6 +99,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 16px;
 }
 
 .tag-btn {
@@ -118,7 +115,7 @@ body {
   color: #b34763;
 }
 
-/* PRODUCTS GRID */
+/* PRODUCTS */
 .products {
   column-count: 2;
   column-gap: 12px;
@@ -161,14 +158,39 @@ body {
   display: inline-block;
 }
 
-/* 🔥 PRICE FIXED */
+.card p {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+/* 🔥 PRICE FIX */
 .price {
   display: flex;
-  gap: 6px;
   align-items: center;
+  gap: 6px;
 }
 
 .price strike {
+  color: #8f6a72;
+  font-size: 0.8rem;
+}
+
+.price .new-price {
+  color: #a03d56;
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+
+/* 🔥 CART PRICE FIX */
+.total-price,
+.summary-price {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.total-price strike,
+.summary-price strike {
   color: #8f6a72;
   font-size: 0.8rem;
 }
@@ -178,23 +200,10 @@ body {
   font-weight: 900;
 }
 
-/* 🔥 CART PRICE */
-.total-price,
-.summary-price {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
-
-.total-price strike,
-.summary-price strike {
-  color: #8f6a72;
-  font-size: 0.8rem;
-}
-
-/* KEEP THESE NORMAL */
+/* KEEP NORMAL */
 .modal-price,
 .summary-total {
+  font-size: 0.92rem;
   font-weight: 900;
   color: #a03d56;
 }
@@ -203,22 +212,6 @@ body {
 .stock {
   font-size: 0.75rem;
   color: #8b6a68;
-}
-
-/* MODAL */
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-box {
-  background: white;
-  padding: 16px;
-  border-radius: 20px;
 }
 
 /* CART */
@@ -237,6 +230,22 @@ body {
   background: #fff7fa;
   padding: 10px;
   border-radius: 12px;
+}
+
+/* MODAL */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 16px;
+  border-radius: 20px;
 }
 
 /* RESPONSIVE */
