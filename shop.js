@@ -162,7 +162,7 @@ function renderProducts() {
       <p>${product.description}</p>
       <div class="stock">Available: ${product.stock}</div>
       <div class="price">
-  <strike>₹${product.price + 100}</strike>
+  <strike>₹${product.price + 80}</strike>
   <span class="new-price">₹${product.price}</span>
 </div>
     </article>
