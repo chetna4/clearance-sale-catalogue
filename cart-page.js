@@ -26,25 +26,25 @@ const PRODUCTS = [
   { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 2, image: "assets/sunflower.jpg" },
 
   { id: 25, name: "Angry Clip", category: "clips", price: 150, stock: 1, image: "assets/angry-clip.jpg" },
-  { id: 26, name: "Star Clip", category: "clips", price: 200, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg" },
-  { id: 27, name: "Star Clip Cross", category: "clips", price: 190, stock: 1, image: "assets/star-clip-cross.jpg" },
+  { id: 26, name: "Star Clip", category: "clips", price: 160, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg" },
+  { id: 27, name: "Star Clip Cross", category: "clips", price: 160, stock: 1, image: "assets/star-clip-cross.jpg" },
 
   { id: 28, name: "Gajra", category: "bracelet", price: 250, stock: 1, image: "assets/gajra.jpg" },
-  { id: 29, name: "Flower Bracelet", category: "bracelet", price: 300, stock: 1, image: "assets/flower-bracelet.jpg" },
+  { id: 29, name: "Flower Bracelet", category: "bracelet", price: 250, stock: 1, image: "assets/flower-bracelet.jpg" },
 
-  { id: 30, name: "Sparkle Pendant", category: "necklace", price: 250, stock: 1, image: "assets/sparkle-pendant.jpg" },
-  { id: 31, name: "Cresent Pendant", category: "necklace", price: 250, stock: 1, image: "assets/cresent-pendant.jpg" },
-  { id: 32, name: "Heart Pendant", category: "necklace", price: 200, stock: 1, image: "assets/heart-pendant.jpg" },
-  { id: 33, name: "Moon Sunflower Pendant", category: "necklace", price: 250, stock: 1, image: "assets/moon-sunflower-pendant.jpg" },
-  { id: 34, name: "Bow Pendant", category: "necklace", price: 200, stock: 1, image: "assets/bow-pendant.jpg" },
-  { id: 35, name: "Pink Heart Pendent", category: "necklace", price: 200, stock: 1, image: "assets/pink-heart-pendent.jpg" },
-  { id: 36, name: "Star Pendent", category: "necklace", price: 200, stock: 1, image: "assets/star-pendent.jpg" },
+  { id: 30, name: "Y2K Sparkle Pendant", category: "necklace", price: 200, stock: 1, image: "assets/sparkle-pendant.jpg" },
+  { id: 31, name: "Y2K Cresent Pendant", category: "necklace", price: 200, stock: 1, image: "assets/cresent-pendant.jpg" },
+  { id: 32, name: "Y2K Heart Pendant", category: "necklace", price: 200, stock: 1, image: "assets/heart-pendant.jpg" },
+  { id: 33, name: "Y2K Moon Sunflower Pendant", category: "necklace", price: 250, stock: 1, image: "assets/moon-sunflower-pendant.jpg" },
+  { id: 34, name: "Y2K Bow Pendant", category: "necklace", price: 200, stock: 1, image: "assets/bow-pendant.jpg" },
+  { id: 35, name: "Y2K Pink Heart Pendent", category: "necklace", price: 200, stock: 1, image: "assets/pink-heart-pendent.jpg" },
+  { id: 36, name: "Y2K Star Pendent", category: "necklace", price: 200, stock: 1, image: "assets/star-pendent.jpg" },
 
-  { id: 37, name: "Moon Earings", category: "earings", price: 250, stock: 1, image: "assets/moon-earings-1.jpg" },
-  { id: 38, name: "Heart Earings", category: "earings", price: 250, stock: 1, image: "assets/heart-earings.jpg" },
-  { id: 39, name: "Moon Earings Small", category: "earings", price: 225, stock: 1, image: "assets/moon-earings-2.jpg" },
-  { id: 40, name: "Bow Earings", category: "earings", price: 200, stock: 1, image: "assets/bow-earings.jpg" },
-  { id: 41, name: "Red Earings", category: "earings", price: 200, stock: 1, image: "assets/red-earings.jpg" },
+  { id: 37, name: "Moon Earings", category: "earings", price: 139, stock: 1, image: "assets/moon-earings-1.jpg" },
+  { id: 38, name: "Heart Earings", category: "earings", price: 139, stock: 1, image: "assets/heart-earings.jpg" },
+  { id: 39, name: "Moon Earings Small", category: "earings", price: 139, stock: 1, image: "assets/moon-earings-2.jpg" },
+  { id: 40, name: "Bow Earings", category: "earings", price: 139, stock: 1, image: "assets/bow-earings.jpg" },
+  { id: 41, name: "Red Earings", category: "earings", price: 139, stock: 1, image: "assets/red-earings.jpg" },
 
   { id: 42, name: "White Brooch", category: "brooches", price: 300, stock: 1, image: "assets/white-brooch.jpg" },
   { id: 43, name: "Dreamy Brooch", category: "brooches", price: 300, stock: 1, image: "assets/dreamy-brooch.jpg" },
@@ -190,7 +190,7 @@ function renderCart() {
               <button class="small-btn qty-plus" data-id="${item.id}">+</button>
             </div>
             <div class="total-price">
-  <strike>₹${(item.price + 100) * item.quantity}</strike>
+  <strike>₹${(item.price + 80) * item.quantity}</strike>
   <span class="new-price">₹${item.price * item.quantity}</span>
 </div>
           </div>
