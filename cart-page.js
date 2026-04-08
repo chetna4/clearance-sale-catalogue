@@ -46,10 +46,10 @@ const PRODUCTS = [
   { id: 40, name: "Bow Earings", category: "earings", price: 139, stock: 1, image: "assets/bow-earings.jpg" },
   { id: 41, name: "Red Earings", category: "earings", price: 139, stock: 1, image: "assets/red-earings.jpg" },
 
-  { id: 42, name: "White Brooch", category: "brooches", price: 300, stock: 1, image: "assets/white-brooch.jpg" },
-  { id: 43, name: "Dreamy Brooch", category: "brooches", price: 300, stock: 1, image: "assets/dreamy-brooch.jpg" },
-  { id: 44, name: "Pink Brooch", category: "brooches", price: 300, stock: 1, image: "assets/pink-brooch.jpg" },
-  { id: 45, name: "Blue Brooch", category: "brooches", price: 300, stock: 1, image: "assets/blue-brooch.jpg" },
+  { id: 42, name: "White Brooch", category: "brooches", price: 199, stock: 1, image: "assets/white-brooch.jpg" },
+  { id: 43, name: "Dreamy Brooch", category: "brooches", price: 199, stock: 1, image: "assets/dreamy-brooch.jpg" },
+  { id: 44, name: "Pink Brooch", category: "brooches", price: 199, stock: 1, image: "assets/pink-brooch.jpg" },
+  { id: 45, name: "Blue Brooch", category: "brooches", price: 199, stock: 1, image: "assets/blue-brooch.jpg" },
 
   { id: 46, name: "Chiikawa", category: "clay charms", price: 250, stock: 1, image: "assets/chiikawa.jpg" },
   { id: 47, name: "Hachiware", category: "clay charms", price: 250, stock: 1, image: "assets/hachiware.jpg" },
