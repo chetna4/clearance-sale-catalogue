@@ -20,12 +20,12 @@ const PRODUCTS = [
 { id: 19, name: "Yuji Itadori", category: "keychains", price: 130, stock: 1, image: "assets/yuji-itadori.jpg", note: "Keychain", description: "Handmade item." },
 { id: 20, name: "Strawhat Keychain", category: "keychains", price: 100, stock: 1, image: "assets/strawhat-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 
-  { id: 21, name: "Red Rose", category: "flowers", price: 140, stock: 15, image: "assets/red-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 22, name: "White Rose", category: "flowers", price: 140, stock: 2, image: "assets/white-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 23, name: "Pink Rose", category: "flowers", price: 140, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 21, name: "Red Rose", category: "flowers", price: 100, stock: 15, image: "assets/red-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 22, name: "White Rose", category: "flowers", price: 100, stock: 2, image: "assets/white-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 23, name: "Pink Rose", category: "flowers", price: 150, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
   { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 2, image: "assets/sunflower.jpg", note: "Flower", description: "Handmade flower." },
 
-  { id: 25, name: "Angry Clip", category: "clips", price: 150, stock: 1, image: "assets/angry-clip.jpg", note: "Clip", description: "Handmade clip." },
+  { id: 25, name: "Angry Clip", category: "clips", price: 100, stock: 1, image: "assets/angry-clip.jpg", note: "Clip", description: "Handmade clip." },
   { id: 26, name: "Star Clip", category: "clips", price: 160, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg", note: "Butterfly 1 • Pink 1 • Blue 1", description: "Handmade clip." },
   { id: 27, name: "Star Clip Cross", category: "clips", price: 160, stock: 1, image: "assets/star-clip-cross.jpg", note: "Cross 1", description: "Handmade clip." },
 
