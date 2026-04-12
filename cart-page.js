@@ -20,12 +20,12 @@ const PRODUCTS = [
   { id: 19, name: "Yuji Itadori", category: "keychains", price: 130, stock: 1, image: "assets/yuji-itadori.jpg" },
   { id: 20, name: "Strawhat Keychain", category: "keychains", price: 100, stock: 1, image: "assets/strawhat-keychain.jpg" },
 
-  { id: 21, name: "Red Rose", category: "flowers", price: 140, stock: 15, image: "assets/red-rose.jpg" },
-  { id: 22, name: "White Rose", category: "flowers", price: 140, stock: 2, image: "assets/white-rose.jpg" },
-  { id: 23, name: "Pink Rose", category: "flowers", price: 140, stock: 2, image: "assets/pink-rose.jpg" },
-  { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 2, image: "assets/sunflower.jpg" },
+  { id: 21, name: "Red Rose", category: "flowers", price: 100, stock: 15, image: "assets/red-rose.jpg" },
+  { id: 22, name: "White Rose", category: "flowers", price: 100, stock: 2, image: "assets/white-rose.jpg" },
+  { id: 23, name: "Pink Rose", category: "flowers", price: 100, stock: 2, image: "assets/pink-rose.jpg" },
+  { id: 24, name: "Sunflower", category: "flowers", price: 150, stock: 2, image: "assets/sunflower.jpg" },
 
-  { id: 25, name: "Angry Clip", category: "clips", price: 150, stock: 1, image: "assets/angry-clip.jpg" },
+  { id: 25, name: "Angry Clip", category: "clips", price: 100, stock: 1, image: "assets/angry-clip.jpg" },
   { id: 26, name: "Star Clip", category: "clips", price: 160, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg" },
   { id: 27, name: "Star Clip Cross", category: "clips", price: 160, stock: 1, image: "assets/star-clip-cross.jpg" },
 
