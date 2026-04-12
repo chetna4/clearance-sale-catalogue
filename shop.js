@@ -22,7 +22,7 @@ const PRODUCTS = [
 
   { id: 21, name: "Red Rose", category: "flowers", price: 100, stock: 15, image: "assets/red-rose.jpg", note: "Flower", description: "Handmade flower." },
   { id: 22, name: "White Rose", category: "flowers", price: 100, stock: 2, image: "assets/white-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 23, name: "Pink Rose", category: "flowers", price: 150, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 23, name: "Pink Rose", category: "flowers", price: 100, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
   { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 2, image: "assets/sunflower.jpg", note: "Flower", description: "Handmade flower." },
 
   { id: 25, name: "Angry Clip", category: "clips", price: 100, stock: 1, image: "assets/angry-clip.jpg", note: "Clip", description: "Handmade clip." },
