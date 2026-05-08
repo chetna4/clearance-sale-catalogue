@@ -15,41 +15,41 @@ const PRODUCTS = [
 { id: 14, name: "Totoro Keychain", category: "keychains", price: 150, stock: 1, image: "assets/totoro-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 15, name: "Eyeball Keychain", category: "keychains", price: 70, stock: 1, image: "assets/eyeball-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 16, name: "Sakura Keychain", category: "keychains", price: 90, stock: 1, image: "assets/sakura-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
-{ id: 17, name: "Heart with Bow Keychain", category: "keychains", price: 100, stock: 1, image: "assets/heart-with-bow-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
+{ id: 17, name: "Heart with Bow Keychain", category: "keychains", price: 100, stock: 0, image: "assets/heart-with-bow-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 18, name: "Fishcake Keychain", category: "keychains", price: 120, stock: 1, image: "assets/fishcake-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 19, name: "Yuji Itadori", category: "keychains", price: 130, stock: 1, image: "assets/yuji-itadori.jpg", note: "Keychain", description: "Handmade item." },
 { id: 20, name: "Strawhat Keychain", category: "keychains", price: 100, stock: 1, image: "assets/strawhat-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 
-  { id: 21, name: "Red Rose", category: "flowers", price: 100, stock: 15, image: "assets/red-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 22, name: "White Rose", category: "flowers", price: 100, stock: 2, image: "assets/white-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 23, name: "Pink Rose", category: "flowers", price: 100, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
-  { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 2, image: "assets/sunflower.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 21, name: "Red Rose", category: "flowers", price: 140, stock: 15, image: "assets/red-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 22, name: "White Rose", category: "flowers", price: 140, stock: 2, image: "assets/white-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 23, name: "Pink Rose", category: "flowers", price: 140, stock: 2, image: "assets/pink-rose.jpg", note: "Flower", description: "Handmade flower." },
+  { id: 24, name: "Sunflower", category: "flowers", price: 180, stock: 0, image: "assets/sunflower.jpg", note: "Flower", description: "Handmade flower." },
 
-  { id: 25, name: "Angry Clip", category: "clips", price: 100, stock: 1, image: "assets/angry-clip.jpg", note: "Clip", description: "Handmade clip." },
-  { id: 26, name: "Star Clip", category: "clips", price: 160, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg", note: "Butterfly 1 • Pink 1 • Blue 1", description: "Handmade clip." },
-  { id: 27, name: "Star Clip Cross", category: "clips", price: 160, stock: 1, image: "assets/star-clip-cross.jpg", note: "Cross 1", description: "Handmade clip." },
+  { id: 25, name: "Angry Clip", category: "clips", price: 150, stock: 1, image: "assets/angry-clip.jpg", note: "Clip", description: "Handmade clip." },
+  { id: 26, name: "Star Clip", category: "clips", price: 200, stock: 3, image: "assets/star-clip-butterfly-pink-blue.jpg", note: "Butterfly 1 • Pink 1 • Blue 1", description: "Handmade clip." },
+  { id: 27, name: "Star Clip Cross", category: "clips", price: 190, stock: 1, image: "assets/star-clip-cross.jpg", note: "Cross 1", description: "Handmade clip." },
 
   { id: 28, name: "Gajra", category: "bracelet", price: 250, stock: 1, image: "assets/gajra.jpg", note: "Bracelet", description: "Handmade bracelet." },
-  { id: 29, name: "Flower Bracelet", category: "bracelet", price: 250, stock: 1, image: "assets/flower-bracelet.jpg", note: "Bracelet", description: "Handmade bracelet." },
+  { id: 29, name: "Flower Bracelet", category: "bracelet", price: 300, stock: 1, image: "assets/flower-bracelet.jpg", note: "Bracelet", description: "Handmade bracelet." },
 
-  { id: 30, name: "Y2K Sparkle Pendant", category: "necklace", price: 200, stock: 1, image: "assets/sparkle-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 31, name: "Y2K Cresent Pendant", category: "necklace", price: 200, stock: 1, image: "assets/cresent-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 32, name: "Y2K Heart Pendant", category: "necklace", price: 200, stock: 1, image: "assets/heart-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 33, name: "Y2K Moon Sunflower Pendant", category: "necklace", price: 250, stock: 1, image: "assets/moon-sunflower-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 34, name: "Y2K Bow Pendant", category: "necklace", price: 200, stock: 1, image: "assets/bow-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 35, name: "Y2K Pink Heart Pendent", category: "necklace", price: 200, stock: 1, image: "assets/pink-heart-pendent.jpg", note: "Necklace", description: "Handmade necklace." },
-  { id: 36, name: "Y2K Star Pendent", category: "necklace", price: 200, stock: 1, image: "assets/star-pendent.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 30, name: "Sparkle Pendant", category: "necklace", price: 250, stock: 1, image: "assets/sparkle-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 31, name: "Cresent Pendant", category: "necklace", price: 250, stock: 1, image: "assets/cresent-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 32, name: "Heart Pendant", category: "necklace", price: 200, stock: 1, image: "assets/heart-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 33, name: "Moon Sunflower Pendant", category: "necklace", price: 250, stock: 1, image: "assets/moon-sunflower-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 34, name: "Bow Pendant", category: "necklace", price: 200, stock: 1, image: "assets/bow-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 35, name: "Pink Heart Pendent", category: "necklace", price: 200, stock: 1, image: "assets/pink-heart-pendent.jpg", note: "Necklace", description: "Handmade necklace." },
+  { id: 36, name: "Star Pendent", category: "necklace", price: 200, stock: 1, image: "assets/star-pendent.jpg", note: "Necklace", description: "Handmade necklace." },
 
-  { id: 37, name: "Moon Earings", category: "earings", price: 139, stock: 1, image: "assets/moon-earings-1.jpg", note: "Earings", description: "Handmade earings." },
-  { id: 38, name: "Heart Earings", category: "earings", price: 139, stock: 1, image: "assets/heart-earings.jpg", note: "Earings", description: "Handmade earings." },
-  { id: 39, name: "Moon Earings Small", category: "earings", price: 139, stock: 1, image: "assets/moon-earings-2.jpg", note: "Earings", description: "Handmade earings." },
-  { id: 40, name: "Bow Earings", category: "earings", price: 139, stock: 1, image: "assets/bow-earings.jpg", note: "Earings", description: "Handmade earings." },
-  { id: 41, name: "Red Earings", category: "earings", price: 139, stock: 1, image: "assets/red-earings.jpg", note: "Earings", description: "Handmade earings." },
+  { id: 37, name: "Moon Earings", category: "earings", price: 250, stock: 1, image: "assets/moon-earings-1.jpg", note: "Earings", description: "Handmade earings." },
+  { id: 38, name: "Heart Earings", category: "earings", price: 250, stock: 1, image: "assets/heart-earings.jpg", note: "Earings", description: "Handmade earings." },
+  { id: 39, name: "Moon Earings Small", category: "earings", price: 225, stock: 1, image: "assets/moon-earings-2.jpg", note: "Earings", description: "Handmade earings." },
+  { id: 40, name: "Bow Earings", category: "earings", price: 200, stock: 1, image: "assets/bow-earings.jpg", note: "Earings", description: "Handmade earings." },
+  { id: 41, name: "Red Earings", category: "earings", price: 200, stock: 1, image: "assets/red-earings.jpg", note: "Earings", description: "Handmade earings." },
 
-  { id: 42, name: "White Brooch", category: "brooches", price: 199, stock: 1, image: "assets/white-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
-  { id: 43, name: "Dreamy Brooch", category: "brooches", price: 199, stock: 1, image: "assets/dreamy-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
-  { id: 44, name: "Pink Brooch", category: "brooches", price: 199, stock: 1, image: "assets/pink-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
-  { id: 45, name: "Blue Brooch", category: "brooches", price: 199, stock: 1, image: "assets/blue-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
+  { id: 42, name: "White Brooch", category: "brooches", price: 300, stock: 1, image: "assets/white-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
+  { id: 43, name: "Dreamy Brooch", category: "brooches", price: 300, stock: 1, image: "assets/dreamy-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
+  { id: 44, name: "Pink Brooch", category: "brooches", price: 300, stock: 1, image: "assets/pink-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
+  { id: 45, name: "Blue Brooch", category: "brooches", price: 300, stock: 1, image: "assets/blue-brooch.jpg", note: "Brooch", description: "Handmade brooch." },
 
   { id: 46, name: "Chiikawa", category: "clay charms", price: 250, stock: 1, image: "assets/chiikawa.jpg", note: "Clay Charm", description: "Handmade clay charm." },
   { id: 47, name: "Hachiware", category: "clay charms", price: 250, stock: 1, image: "assets/hachiware.jpg", note: "Clay Charm", description: "Handmade clay charm." },
@@ -98,7 +98,7 @@ function addToCart(productId, quantity) {
   const cart = getCart();
   const existing = cart.find((item) => item.id === productId);
   const product = getProductById(productId);
-  if (!product) return;
+  if (!product || product.stock === 0) return;
 
   const currentQty = existing ? existing.quantity : 0;
   const finalQty = Math.min(currentQty + quantity, product.stock);
@@ -160,11 +160,8 @@ function renderProducts() {
       <h4>${product.name}</h4>
       <span class="category">${product.category}</span>
       <p>${product.description}</p>
-      <div class="stock">Available: ${product.stock}</div>
-      <div class="price">
-  <strike>₹${product.price + 80}</strike>
-  <span class="new-price">₹${product.price}</span>
-</div>
+      <div class="stock">${product.stock === 0 ? 'Out of Stock' : 'Available: ' + product.stock}</div>
+      <div class="price">₹${product.price}</div>
     </article>
   `).join("");
 
@@ -184,8 +181,24 @@ function openModal(productId) {
   modalName.textContent = activeProduct.name;
   modalCategory.textContent = activeProduct.category;
   modalPrice.textContent = `₹${activeProduct.price}`;
-  modalStock.textContent = `Available: ${activeProduct.stock}`;
+  modalStock.textContent = activeProduct.stock === 0 ? `Out of Stock` : `Available: ${activeProduct.stock}`;
   modalDescription.textContent = activeProduct.note;
+  
+  // Disable/Enable add to cart button and quantity controls based on stock
+  if (activeProduct.stock === 0) {
+    addToCartBtn.disabled = true;
+    addToCartBtn.style.opacity = "0.5";
+    addToCartBtn.style.cursor = "not-allowed";
+    minusQty.disabled = true;
+    plusQty.disabled = true;
+  } else {
+    addToCartBtn.disabled = false;
+    addToCartBtn.style.opacity = "1";
+    addToCartBtn.style.cursor = "pointer";
+    minusQty.disabled = false;
+    plusQty.disabled = false;
+  }
+  
   productModal.classList.remove("hidden");
 }
 
@@ -208,7 +221,7 @@ plusQty.addEventListener("click", () => {
 });
 
 addToCartBtn.addEventListener("click", () => {
-  if (!activeProduct) return;
+  if (!activeProduct || activeProduct.stock === 0) return;
   addToCart(activeProduct.id, currentSelectedQty);
   closeProductModal();
   alert("Added to cart 💖");
