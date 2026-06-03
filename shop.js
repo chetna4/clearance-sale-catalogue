@@ -8,7 +8,7 @@ const PRODUCTS = [
 { id: 7, name: "Strawberry Keychain", category: "keychains", price: 100, stock: 7, image: "assets/strawberry-keychain.jpg", note: "Red 2 • Pink 5", description: "Handmade keychain." },
 { id: 8, name: "Kitty Keychain", category: "keychains", price: 180, stock: 1, image: "assets/kitty-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 9, name: "Mochi Cat Keychain", category: "keychains", price: 100, stock: 1, image: "assets/mochi-cat-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
-{ id: 10, name: "Octo Keychain", category: "keychains", price: 100, stock: 1, image: "assets/octo-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
+{ id: 10, name: "Octo Keychain", category: "keychains", price: 100, stock: 0, image: "assets/octo-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 11, name: "Heart Keychain", category: "keychains", price: 50, stock: 4, image: "assets/heart-keychain.jpg", note: "Red 1 • Pink 2 • White 1", description: "Handmade keychain." },
 { id: 12, name: "No Face Keychain", category: "keychains", price: 130, stock: 1, image: "assets/no-face-keychain.jpg", note: "Keychain", description: "Handmade keychain." },
 { id: 13, name: "Jellyfish Keychain", category: "keychains", price: 200, stock: 2, image: "assets/jellyfish-keychain.jpg", note: "Blue 1 • Yellow 1", description: "Handmade keychain." },
@@ -30,7 +30,7 @@ const PRODUCTS = [
   { id: 27, name: "Star Clip Cross", category: "clips", price: 190, stock: 1, image: "assets/star-clip-cross.jpg", note: "Cross 1", description: "Handmade clip." },
 
   { id: 28, name: "Gajra", category: "bracelet", price: 250, stock: 1, image: "assets/gajra.jpg", note: "Bracelet", description: "Handmade bracelet." },
-  { id: 29, name: "Flower Bracelet", category: "bracelet", price: 300, stock: 1, image: "assets/flower-bracelet.jpg", note: "Bracelet", description: "Handmade bracelet." },
+{ id: 29, name: "Flower Bracelet", category: "bracelet", price: 300, stock: 0, image: "assets/flower-bracelet.jpg", note: "Bracelet", description: "Handmade bracelet." },
 
   { id: 30, name: "Sparkle Pendant", category: "necklace", price: 250, stock: 1, image: "assets/sparkle-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
   { id: 31, name: "Cresent Pendant", category: "necklace", price: 250, stock: 1, image: "assets/cresent-pendant.jpg", note: "Necklace", description: "Handmade necklace." },
